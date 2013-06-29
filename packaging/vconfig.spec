@@ -32,6 +32,7 @@ rm -rf contrib/CVS
 rm -rf ${RPM_BUILD_ROOT}
 
 %files 
+%manifest %{name}.manifest
 %defattr(-, root, root, 0755)
 %manifest %{name}.manifest
 %doc CHANGELOG contrib README vlan.html vlan_test.pl
