@@ -1,0 +1,8 @@
+Change-Id: Ic731d4716a6d500758e6dfffa0e3f3764466702a
+Code-Review+2: Ryan Ware <ware@linux.intel.com>
+Verified+1: Ryan Ware <ware@linux.intel.com>
+Submitted-by: Ryan Ware <ware@linux.intel.com>
+Submitted-at: Mon, 08 Jul 2013 09:39:12 -0700
+Reviewed-on: https://review.tizen.org/gerrit/4928
+Project: platform/upstream/vconfig
+Branch: refs/heads/tizen
