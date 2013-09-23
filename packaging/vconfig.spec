@@ -2,7 +2,7 @@ Summary: Linux 802.1q VLAN configuration utility
 Name: vconfig
 Version: 1.9
 Release: 14
-License: GPLv2+
+License: GPL-2.0
 Group: System Environment/Base
 Source: http://www.candelatech.com/~greear/vlan/vlan.%{version}.tar.gz
 Source1001: %{name}.manifest
@@ -38,3 +38,4 @@ rm -rf ${RPM_BUILD_ROOT}
 %doc CHANGELOG contrib README vlan.html vlan_test.pl
 %{_sbin}/vconfig
 %{_mandir}/man8/vconfig.8*
+%license LICENSE
